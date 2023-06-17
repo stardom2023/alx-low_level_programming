@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
- *main- prints all possible different combinations of three digits
- *Return: always 0 (Success)
+ *main-prints all possible different combinations of three digits
+ *Return:always 0 (Success)
 */
 int main(void)
 {
@@ -26,43 +26,4 @@ int main(void)
 	}
 	putchar('\n');
 	return (0);
-}				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				if (n != 7 || m != 8 || l != 9)
-                                {
-                                        putchar(',');
-                                        putchar(' ');
-                                }
-                        }
-                }
-        }
-        putchar('\n');
-        return (0);
 }
