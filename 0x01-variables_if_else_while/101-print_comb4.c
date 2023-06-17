@@ -5,7 +5,7 @@
 */
 int main(void)
 {
-	int n, m, l
+	int n, m, l;
 
 	for (n = 0; n <= 7; n++)
 	{
@@ -26,9 +26,7 @@ int main(void)
 	}
 	putchar('\n');
 	return (0);
-}
-				
-				
+}				
 				
 				
 				
