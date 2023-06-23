@@ -3,8 +3,8 @@
 
 /**
  * main - prints the numbers from 1 to 100, followed by a new line
- * description : "prints number 1 to 100"
- * Return : Always 0 (Success)
+ * Description : "prints number 1 to 100"
+ * Return: Always 0 (Success)
  */
 
 int main(void)
