@@ -3,10 +3,10 @@
 /**
  *main - entry point
  *description : "multiply 2 numbers"
- *Return: 1 for a character that will be a digit or 0 for anything else
+ *Return: a * b
  */
 
-int mul(int x, int y)
+int mul(int a, int b)
 {
-	return (x *y);
+	return (a * b);
 }
