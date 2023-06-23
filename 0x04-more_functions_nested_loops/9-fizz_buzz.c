@@ -3,7 +3,7 @@
 
 /**
  * main - prints the numbers from 1 to 100, followed by a new line
- * Description : "prints number 1 to 100"
+ * description : "prints number 1 to 100"
  * Return : Always 0 (Success)
  */
 
