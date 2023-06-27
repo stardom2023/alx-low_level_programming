@@ -8,16 +8,16 @@
 
 int _strlen(char *s)
 {
-	char *s;
-	int lent;
+	char s;
+	int len;
 
 	s = "Joy is lovely";
-	lent = _strlen(str);
+	len = _strlen;
 
-	while (*s = '\0')
+	while (s = '\0')
 	{
-	lent++;
+	len++;
 	s++;
 	}
-	return (y);
+	return (len);
 }
