@@ -24,4 +24,4 @@ int (*get_op_func(char *s))(int, int)
 	w++;
 
 	return (ops[w].f);
-}	 
+}
