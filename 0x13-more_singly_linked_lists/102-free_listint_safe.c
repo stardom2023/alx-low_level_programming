@@ -1,14 +1,15 @@
-#include "list.h"
+#include "lists.h"
 
 /**
- * free_listint_safe - function that frees
- * @h: a pointer to a pointer
- * Return: free elements
+ * free_listint_safe - a function that frees a listint_t list.
+ * @h: pointer to a pointer to the node
+ * Return: size of freed list
  */
+
 size_t free_listint_safe(listint_t **h)
 {
-	size_t len = 0;
-	int dif;
+	size_t lint = 0;
+	int div;
 	listint_t *empo;
 
 	if (!h || !*h)
@@ -16,24 +17,24 @@ size_t free_listint_safe(listint_t **h)
 
 	while (*h)
 	{
-		dif = *h - (*h)->next;
-		if (dif > 0)
+		div = *h - (*h)->next;
+		if (div > 0)
 		{
 			empo = (*h)->next;
 			free(*h);
 			*h = empo;
-			len++;
+			lint++;
 		}
 		else
 		{
 			free(*h);
 			*h = NULL;
-			len++;
+			lint++;
 			break;
 		}
 	}
 
 	*h = NULL;
 
-	return (len);
+	return (lint);
 }
