@@ -18,9 +18,9 @@ int main(int argc, char *argv[])
 	unsigned int mode = S_IRUSR | S_IWUSR | S_IRGRP | S_IWGRP | S_IROTH;
 	char buffer[1024];
 
-	if (argv != 3)
+	if (argc != 3)
 	{
-		dprint(STDERR_FILENO, "%s", "Usage: cp file_from file_to\n");
+		dprintf(STDERR_FILENO, "%s", "Usage: cp file_from file_to\n");
 			exit(97);
 	}
 	s = open(argv[1], O_RDONLY);
