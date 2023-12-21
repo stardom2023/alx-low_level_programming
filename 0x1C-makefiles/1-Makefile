@@ -1,0 +1,8 @@
+CC = gcc
+
+# Source files
+SRC = main.c school.c
+
+# Compile and link the source files to create the executable
+all: $(SRC)
+	$(CC) $(SRC) -o school

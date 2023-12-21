@@ -1,0 +1,5 @@
+all: school
+
+# Compile and link the source files to create the executable
+school: main.c school.c
+	gcc main.c school.c -o school
